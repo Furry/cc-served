@@ -1,0 +1,17 @@
+{
+  "name": "cc-served",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "<ender@thefluegges.com>",
+  "license": "MIT",
+  "scripts": {
+    "go": "tsc && node ./dist/index.js ../../lua"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "ngrok": "^4.2.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  }
+}

@@ -1,0 +1,8 @@
+# Directories
+lua/*.lua
+dist/
+node_modules/
+
+#Files
+!lua/index.lua
+yarn.lock
